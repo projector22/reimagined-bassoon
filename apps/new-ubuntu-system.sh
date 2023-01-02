@@ -1,25 +1,25 @@
 #!/bin/bash
 
-# # @todo - See if we can wget these apps.
-# sudo dpkg -i -R ~/Installers/FirstRun/
+# @todo - See if we can wget these apps.
+sudo dpkg -i -R ~/Installers/FirstRun/
 
-# sudo apt install apt-transport-https curl -yy
+sudo apt install apt-transport-https curl -yy
 
 # install_signal
 # install_brave
 
-# up
+up
 
-# sudo apt install git neofetch htop ffmpeg youtube-dlp brave-browser -yy
+sudo apt install git neofetch htop ffmpeg youtube-dlp brave-browser -yy
 
-# sudo snap install spotify
-# sudo snap install chromium
-# sudo snap install joplin-desktop
-# sudo snap install plex-desktop
+sudo snap install spotify
+sudo snap install chromium
+sudo snap install joplin-desktop
+sudo snap install plex-desktop
 
 # install_flatpak
 
-# # flatpak install flathub com.plexamp.Plexamp
+# flatpak install flathub com.plexamp.Plexamp
 
 # # ~/bin/setup-dev-env.sh
 
@@ -27,4 +27,4 @@
 
 # # sudo reboot now
 
-# echo "All complete"
+echo "All complete"
