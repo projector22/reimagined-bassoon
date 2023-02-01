@@ -6,6 +6,8 @@
 
 - Node.js Installer.
 
+---
+
 ## v0.1.0
 
 ### Added
