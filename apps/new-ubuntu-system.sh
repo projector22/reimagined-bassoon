@@ -5,12 +5,9 @@ sudo dpkg -i -R ~/Installers/FirstRun/
 
 sudo apt install apt-transport-https curl -yy
 
-# install_signal
-# install_brave
-
 up
 
-sudo apt install git neofetch htop ffmpeg youtube-dlp brave-browser -yy
+sudo apt install git neofetch htop ffmpeg youtube-dlp -yy
 
 sudo snap install spotify
 sudo snap install chromium

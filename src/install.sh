@@ -7,6 +7,7 @@ while true; do
   echo "1. Signal"
   echo "2. Flatpak"
   echo "3. Brave"
+  echo "4. Node.js"
   echo "e. Full new system on deb install"
   echo "q. Quit"
 
@@ -24,6 +25,10 @@ while true; do
     3)
       echo "Installing Brave Browser"
       bash "$script_dir/../apps/brave.sh"
+      ;;
+    4)
+      echo "Installing Node.js"
+      bash "$script_dir/../apps/node.sh"
       ;;
     e)
       echo "Starting install process for a new DEB based system."
